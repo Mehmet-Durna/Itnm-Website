@@ -14,7 +14,7 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --bggradient: linear-gradient(to bottom, #EFE2BA, #5ab9ea);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
@@ -60,8 +60,11 @@ header .navbar-brand {
   padding-left: 8rem;
 }
 
+.nav-link{
+  color: white;
+}
 header .nav-link:hover {
-  color: black;
+  color: #0d6efd;
 }
 
 header .row .col-md-7 {
@@ -147,110 +150,28 @@ header .container .col-md-7 p {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/*  Section 2  */
+/*  Projects  */
+/* .card{
+  margin: 2vh;
+  
+} */
 
-.cover {
-  width: 100%;
-  height: 55vmin;
-  background: url("../assets/pexels-photo-452738.jpeg");
-  background-position: -24rem -19rem;
-  background-size: 150%;
-  position: relative;
+.card{
+  height: 20rem;
 }
 
-.cover .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999;
+.card-1{
+
+  background-image: url(../assets/pexels-photo-636243.jpeg);
+  background-size: cover;
 }
 
-.cover .content {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  padding-top: 19vmin;
-}
+#card-1{
+  height: 20rem;
 
-.cover .content > h1 {
-  font-family: var(--Patua);
-  font-size: 6vmin;
-  color: whitesmoke;
-}
-
-.cover .content > p {
-  font-family: var(--Rubik);
-  font-size: 2vmin;
-  color: #e5e5e5;
-}
-
-.numbers .rect {
-  position: relative;
-  z-index: 1;
-  background: linear-gradient(to bottom, #264174, #242222);
-  width: 17rem;
-  height: 15rem;
-  padding-top: 3.5vmin;
-  margin: 1rem;
-  border-radius: 0.5em;
-  box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
-}
-
-.numbers {
-  margin-top: -15vmin;
-}
-
-.numbers .rect h1 {
-  font-size: 2rem;
-  color: whitesmoke;
 }
 
 
-.purchase > h1 {
-  padding-top: 15vmin;
-  padding-bottom: 0.1em;
-  font-family: var(--Lobster);
-}
-
-.purchase > p {
-  color: var(--light-black);
-  font-size: 3vmin;
-  padding-bottom: 10vmin;
-}
-
-.purchase .cards .card {
-  width: 22rem;
-  margin: 3vmin 3vmin;
-}
-
-.cards div {
-  padding: 0;
-  margin: 0;
-}
-
-.cards .title {
-  background: rgba(208, 241, 241, 0.199);
-  padding: 1.4em 2.5em;
-  font-size: 2vmin;
-}
-
-.card .card-text {
-  padding: 2.5rem 3rem;
-  color: var(--light-black);
-}
-
-.card-body .pricing {
-  background: rgba(208, 241, 241, 0.199);
-  border-top-right-radius: 170px;
-  border-top-left-radius: 170px;
-}
-
-.card-body .pricing > h1 {
-  font-size: 10vmin;
-  padding: 1em 0.5em;
-}
 
 /* Section 3 */
 
