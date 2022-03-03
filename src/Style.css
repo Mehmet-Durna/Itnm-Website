@@ -14,7 +14,7 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(to bottom, #EFE2BA, #5ab9ea);
+  --bggradient: linear-gradient(to bottom, #efe2ba, #5ab9ea);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
@@ -60,7 +60,7 @@ header .navbar-brand {
   padding-left: 8rem;
 }
 
-.nav-link{
+.nav-link {
   color: white;
 }
 header .nav-link:hover {
@@ -110,6 +110,45 @@ header .container .col-md-7 p {
   font-weight: bold;
 }
 
+/* About starts */
+.about-title{
+  height: auto;
+  width: auto;
+  background-color: #ff512f;
+  display: inline-block;
+}
+
+.about{
+height: 60vh;
+}
+ 
+.about-one {
+  background-image: url(../assets/about1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+.about-two {
+  
+  background-color: #b91b1b;
+}
+
+.about-three {
+  
+  background-color: #296417;
+}
+
+.about-four {
+  
+ background-image: url(../assets/about2.jpg);
+}
+
+
+
+
+/* About ends */
+
 /********** section 1 **************/
 
 /* .section-1 {
@@ -152,16 +191,15 @@ header .container .col-md-7 p {
 
 /*  Projects  */
 
-.card{
- 
+.card {
   height: 20rem;
   padding: 1rem;
   margin: 1rem 0;
   background-position: center;
   background-size: cover;
-  }
+}
 
-#card1{
+#card1 {
   background-image: url(../assets/pexels-photo-1904769.jpeg);
 }
 
@@ -175,7 +213,15 @@ header .container .col-md-7 p {
   color: #ddd;
 }
 
+.btn-one {
+  background-color: #efe2ba;
+  border: none;
+  border-radius: 10%;
+}
 
+.btn-one:hover {
+  background-color: #5ab9ea;
+}
 
 /* Section 3 */
 
