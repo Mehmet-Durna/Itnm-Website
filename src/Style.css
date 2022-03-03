@@ -112,7 +112,7 @@ header .container .col-md-7 p {
 
 /********** section 1 **************/
 
-.section-1 {
+/* .section-1 {
   padding: 20vmin 0vmin;
 }
 
@@ -148,27 +148,31 @@ header .container .col-md-7 p {
 .section-1 .row .col-md-6 .panel p {
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.5);
-}
-
-/*  Projects  */
-/* .card{
-  margin: 2vh;
-  
 } */
 
+/*  Projects  */
+
 .card{
+ 
   height: 20rem;
-}
-
-.card-1{
-
-  background-image: url(../assets/pexels-photo-636243.jpeg);
+  padding: 1rem;
+  margin: 1rem 0;
+  background-position: center;
   background-size: cover;
+  }
+
+#card1{
+  background-image: url(../assets/pexels-photo-1904769.jpeg);
 }
 
-#card-1{
-  height: 20rem;
+.card-title:hover {
+  background-color: rgba(1, 2, 1, 0.4);
+  color: #ddd;
+}
 
+.card-text:hover {
+  background-color: rgba(1, 2, 1, 0.4);
+  color: #ddd;
 }
 
 
