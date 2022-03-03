@@ -2,7 +2,7 @@ The parts to be done is listed below. Please choose the issues you want and add 
 
 | Nu. | Issue | Person | 
 | --- | --- | --- |
-| 1 | 1. User Story: Deciding the Template - Overview | →   Mesut, Mehmet, Omer |
+| 1 | 1. User Story: Deciding the Template - Overview | →   **Mesut, Mehmet, Omer** |
 | 2 | 2. User Story: Analysing Sample Websites | →  Mesut, Mehmet, Omer |
 | 3 | 3. User Story: Design | → Mesut, Mehmet, Omer |
 | 4 | 4. User Story: NavBar | → Omer |
@@ -14,6 +14,6 @@ The parts to be done is listed below. Please choose the issues you want and add 
 | 10 | 10. User Story: Deciding Contents |  → Mesut, Mehmet |
 | 11 | 11. User Story: Final Touches (Content) |  → Mesut|
 | | __Nice to have__
-| 1 | 
+| 1 | nice to haves here
 | 
 
