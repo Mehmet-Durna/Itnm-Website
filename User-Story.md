@@ -14,6 +14,6 @@ The parts to be done is listed below. Please choose the issues you want and add 
 | 10 | 10. User Story: Deciding Contents |  → Mesut, Mehmet |
 | 11 | 11. User Story: Final Touches (Content) |  → Mesut|
 | | __Nice to have__
-| 1 | 
+| 1 | nice to haves here
 | 
 
