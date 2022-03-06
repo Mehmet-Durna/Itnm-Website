@@ -110,42 +110,39 @@ header .container .col-md-7 p {
   font-weight: bold;
 }
 
-/* About starts */
-.about-title{
+/* About us starts */
+
+.about-title-div {
+  background-color: rgba(255, 202, 43, 0.424);
+}
+.about-title {
   height: auto;
   width: auto;
-  background-color: #ff512f;
+  color: black;
   display: inline-block;
 }
 
-.about{
-height: 60vh;
+.about-us img {
+  height: 100%;
+  width: 100%;
 }
- 
+.first-about-div {
+  background-color: rgba(221, 36, 45, 0.633);
+  padding-bottom: 30px;
+}
 .about-one {
-  background-image: url(../assets/about1.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  
+  border-radius: 7px;
 }
-
-.about-two {
-  
-  background-color: #b91b1b;
-}
-
-.about-three {
-  
-  background-color: #296417;
+.about-one img {
+  object-fit: inherit;
 }
 
 .about-four {
-  
- background-image: url(../assets/about2.jpg);
+  border-radius: 7px;
 }
-
-
-
+.about-title {
+  margin-top: 75px;
+}
 
 /* About ends */
 
