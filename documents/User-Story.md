@@ -2,20 +2,18 @@ The parts to be done is listed below. Please choose the issues you want and add 
 
 | Nu. | Issue | Person | 
 | --- | --- | --- |
-| 1 | 1. User Story: Deciding the Template - Overview | →   Everyone |
-| 2 | 2. User Story: Finding the Sample Websites | →  Everyone |
-| 3 | 3. User Story: Deciding Design | → Everyone |
+| 1 | 1. User Story: Deciding the Template - Overview | →   **Mesut, Mehmet, Omer** |
+| 2 | 2. User Story: Analysing Sample Websites | →  Mesut, Mehmet, Omer |
+| 3 | 3. User Story: Design | → Mesut, Mehmet, Omer |
 | 4 | 4. User Story: NavBar | → Omer |
-| 5 | 5. User Story: Home Layout| → Mehmet |
+| 5 | 5. User Story: Home| → Mehmet |
 | 6 | 6. User Story: About Us | → Omer |
 | 7 | 7. User Story: About Our Team|  → Mehmet |
 | 8 | 8. User Story: Projects |  →  Omer
 | 9 | 9. User Story: Footer | →  Mehmet
-| 10 | 10. User Story: Finding Contents |  → Mesut,Mehmet |
-| 11 | 11. User Story: Editing Content |  → Mesut|
-| 12 | 12. User Story: Control Meeting   |  → Everyone |
-| 13 | 13. User Story: Review  | →  Everyone
+| 10 | 10. User Story: Deciding Contents |  → Mesut, Mehmet |
+| 11 | 11. User Story: Final Touches (Content) |  → Mesut|
 | | __Nice to have__
-| 14 | 
+| 1 | nice to haves here
 | 
 
