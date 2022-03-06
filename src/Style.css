@@ -112,9 +112,6 @@ header .container .col-md-7 p {
 
 /* About us starts */
 
-.about-title-div {
-  background-color: rgba(255, 202, 43, 0.424);
-}
 .about-title {
   height: auto;
   width: auto;
@@ -141,7 +138,11 @@ header .container .col-md-7 p {
   border-radius: 7px;
 }
 .about-title {
-  margin-top: 75px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.about-content {
+  text-align: justify;
 }
 
 /* About ends */
