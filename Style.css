@@ -223,33 +223,8 @@ header .container .col-md-7 p {
   transform: scale(1.1);
 }
 
-/* Section Team */
 
-.section-4 .container h1 {
-  font-size: 6vmin;
-  padding-top: 14vmin;
-}
 
-.section-4 .team {
-  padding: 10vmin 4vmin;
-}
-
-.section-4 .card {
-  width: 22em;
-  margin-top: 10vmin;
-}
-
-.section-4 .card .card-text {
-  padding: 0.5em;
-}
-
-.section-4 .card-body > a {
-  font-size: 1.5em;
-}
-
-.section-4 .carousel-item {
-  padding-left: 3rem;
-}
 
 .border-radius {
   border-radius: 340px;
