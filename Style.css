@@ -13,9 +13,8 @@ section {
   --Rubik: "Rubik", cursive;
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
-  --light-black: #2e2c2caf;
   --bggradient: linear-gradient(to bottom, #efe2ba, #5ab9ea);
-  --light-gray: rgba(255, 255, 255, 0.877);
+  --light-gray: rgba(241, 241, 241, 0.877);
 }
 
 header a {
@@ -145,49 +144,10 @@ header .container .col-md-7 p {
   text-align: justify;
 }
 
-/* About ends */
-
-/********** section 1 **************/
-
-/* .section-1 {
-  padding: 20vmin 0vmin;
+/*  Projects Start  */
+#projects {
+background-color: var(--light-gray);
 }
-
-.section-1 .row .col-md-6 .pray img {
-  opacity: 0.8;
-  width: 80%;
-  border-radius: 0.2em;
-}
-
-.section-1 .row .col-md-6:last-child {
-  position: relative;
-}
-
-.section-1 .row .col-md-6 .panel {
-  position: absolute;
-  top: 7vmin;
-  left: -18vmin;
-  background: white;
-  border-radius: 3px;
-  text-align: left;
-  padding: 13vmin 5vmin 20vmin 10vmin;
-  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-  font-family: var(--Rubik);
-  z-index: 1;
-}
-
-.section-1 .row .col-md-6 .panel h1 {
-  font-weight: bold;
-  padding: 0.4em 0;
-  font-size: 2em;
-}
-
-.section-1 .row .col-md-6 .panel p {
-  font-size: 0.9em;
-  color: rgba(0, 0, 0, 0.5);
-} */
-
-/*  Projects  */
 
 .card {
   height: 20rem;
@@ -195,33 +155,17 @@ header .container .col-md-7 p {
   margin: 1rem 0;
   background-position: center;
   background-size: cover;
-}
-
-#card1 {
+  transition: transform 0.2s;
   background-image: url(assets/pexels-photo-1904769.jpeg);
 }
 
-.card-title:hover {
-  background-color: rgba(1, 2, 1, 0.4);
-  color: #ddd;
+.card:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(assets/pexels-photo-1904769.jpeg);
 }
 
-.card-text:hover {
-  background-color: rgba(1, 2, 1, 0.4);
-  color: #ddd;
-}
-
-.btn-one {
-  border: none;
-  border-radius: 10%;
-  width: 4rem;
-  height: 3rem;
-  transition: all .2s ease-in-out;
-}
-
-.btn-one:hover {
-  transform: scale(1.1);
-}
+/*  Projects End */
 
 /* Section Team */
 
