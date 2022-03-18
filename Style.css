@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 * {
   box-sizing: border-box;
+  font-family: var(--Sniglet-font);
 }
 
 header,
@@ -13,9 +14,9 @@ section {
   --Rubik: "Rubik", cursive;
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
-  --light-black: #2e2c2caf;
   --bggradient: linear-gradient(to bottom, #efe2ba, #5ab9ea);
-  --light-gray: rgba(255, 255, 255, 0.877);
+  --light-gray: rgba(241, 241, 241, 0.877);
+  --orange: #ff512f;
 }
 
 header a {
@@ -149,6 +150,7 @@ header .container .col-md-7 p {
   margin-top: 5rem;
 }
 
+<<<<<<< HEAD
 .card-img-top {
   width: 25vw;
   height:40vh ;
@@ -198,22 +200,30 @@ header .container .col-md-7 p {
 /*  Projects  */
 
 #projects .card {
+=======
+/*  Projects Start  */
+#projects {
+background-color: var(--light-gray);
+}
+
+.card {
+>>>>>>> 89c266bb5f78312413ff013449d7694a5642c593
   height: 20rem;
   padding: 1rem;
   margin: 1rem 0;
   background-position: center;
   background-size: cover;
-}
-
-#card1 {
+  transition: transform 0.2s;
   background-image: url(assets/pexels-photo-1904769.jpeg);
 }
 
-.card-title:hover {
-  background-color: rgba(1, 2, 1, 0.4);
-  color: #ddd;
+.card:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(assets/pexels-photo-1904769.jpeg);
 }
 
+<<<<<<< HEAD
 .card-text:hover {
   background-color: rgba(1, 2, 1, 0.4);
   color: #ddd;
@@ -230,6 +240,9 @@ header .container .col-md-7 p {
 .btn-one:hover {
   transform: scale(1.1);
 }
+=======
+/*  Projects End */
+>>>>>>> 89c266bb5f78312413ff013449d7694a5642c593
 
 /* Section Team */
 
@@ -264,44 +277,31 @@ header .container .col-md-7 p {
   width: 60%;
 }
 
+/* footer start */
+
 footer {
   background: rgba(0, 0, 0, 0.815);
   overflow-x: hidden;
-  padding: 14vmin 18vmin;
+  padding: 0 18vmin;
+  color: var(--orange);
 }
 
-footer p > span {
-  color: #ff512f;
+  /* .col-2 ul li a{
+  display: inline-block;
+  background-color: aqua;
+} */
+
+.nav-link{
+  display: inline-block;
+  color: rgb(247, 241, 241);
+}
+.nav-link:hover{
+  color: var(--orange);
 }
 
-footer input {
-  border: none !important;
-}
 
-footer input::placeholder {
-  color: white !important;
-}
 
-footer .input-group .input-group-text {
-  background: var(--bggradient);
-  border: none;
-}
-
-footer .column i {
-  color: #dd2476;
-}
-
-/* It is Adjacent sibling combinator */
-
-footer .column i + i {
-  padding: 0 0.5em;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.815);
-  z-index: 9999;
-  transition: all 1.5s ease;
+.awes-2{
+  font-size: 2em;
+  color: var(--orange);
 }
