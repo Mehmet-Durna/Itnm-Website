@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" href="Style.css" />
     <link rel="stylesheet" href="mobile-style.css" />
+    <script src="https://kit.fontawesome.com/425af80775.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -92,55 +93,78 @@
     <main>
       <!--About US Start-->
 
-      <div class="container h-100 bg-gradient about-us my-5">
-        <div class="row justify-content-center about-title-div bg-gradient">
-          <h1 class="col-1 about-title m-4">About Us</h1>
-        </div>
-        <!-- order1 col-sm-12 col-md-6 -->
-        <div class="row row-cols-1 row-cols-md-2 justify-content-end gx-5">
-          <div
-            class="order-md-1 order-2 col about about-one shadow-lg mt-3 p-0 "
-          >
-            <img src="../assets/about1.jpg" class="img-fluid" alt="Home" />
-          </div>
-          <div class="order-1 order-md-2 col about about-two text-center">
-            <h3 class="about-title">Title</h3>
-            <p class="about-content">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto et
-              expedita sed nobis ullam assumenda! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. A eos expedita tenetur obcaecati
-              eligendi dolores. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. At odit tempore blanditiis et. Architecto,
-              corrupti.
-            </p>
-          </div>
-        </div>
 
-        <div class="row row-cols-1 row-cols-md-2 second-about-div gx-5">
-          <div class="col about about-three text-center">
-            <h3 class="about-title">Title</h3>
-            <p class="about-content">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto et
-              expedita sed nobis ullam assumenda! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. A eos expedita tenetur obcaecati
-              eligendi dolores. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Incidunt, quia laudantium? Ipsa deleniti optio
-              reiciendis!
+      <div class="card-group d-flex container-fluid bg-dark">
+        <div class="card about-us-card">
+          <img src="./assets/cpu.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
             </p>
           </div>
-          <div class="col about about-four justify-content-end shadow-lg p-0 mt-3">
-            <img src="../assets/about2.jpg" class="img-fluid" alt="Home" />
+        </div>
+        <div class="card about-us-card">
+          <img src="./assets/technology.png"
+          
+           class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card about-us-card">
+          <img src="./assets/project-management-color.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card about-us-card">
+          <img src="./assets/technology  between.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+
           </div>
         </div>
       </div>
+
+
       <!--About end-->
       <!--Projects Start-->
-      <div class="container-fluid text-center pt-5" id="projects">
-        <div class="container">
+
+      <div class="container-fluid px-5 text-center pt-5 pb-2 " id="projects">
           <h2 class="mb-5">Projects</h2>
           <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
-            <div class="col">
-              <div class="card shadow projectCard" id="card1">
+            <div  class="col">
+              <a href="" class="text-decoration-none text-white ">
+              <div class="card  projectCard">
                 <div
                   class="card-body d-flex flex-column justify-content-around align-items-baseline"
                 >
@@ -150,12 +174,13 @@
                     and organizations generate value through adaptive solutions
                     for complex problems.
                   </p>
-                  <button class="btn-one bg-info">Press</button>
                 </div>
               </div>
+            </a>
             </div>
-            <div class="col">
-              <div class="card shadow projectCard" id="card1">
+            <div  class="col">
+              <a href="" class="text-decoration-none text-white ">
+              <div class="card shadow projectCard">
                 <div
                   class="card-body d-flex flex-column justify-content-around align-items-baseline"
                 >
@@ -165,12 +190,13 @@
                     and organizations generate value through adaptive solutions
                     for complex problems.
                   </p>
-                  <button class="btn-one bg-info">Press</button>
                 </div>
               </div>
+            </a>
             </div>
-            <div class="col">
-              <div class="card shadow projectCard" id="card1">
+            <div  class="col">
+              <a href="" class="text-decoration-none text-white ">
+              <div class="card shadow projectCard">
                 <div
                   class="card-body d-flex flex-column justify-content-around align-items-baseline"
                 >
@@ -180,12 +206,13 @@
                     and organizations generate value through adaptive solutions
                     for complex problems.
                   </p>
-                  <button class="btn-one bg-info">Press</button>
                 </div>
               </div>
+            </a>
             </div>
-            <div class="col">
-              <div class="card shadow projectCard" id="card1">
+            <div  class="col">
+              <a href="" class="text-decoration-none text-white ">
+              <div class="card shadow projectCard">
                 <div
                   class="card-body d-flex flex-column justify-content-around align-items-baseline"
                 >
@@ -195,9 +222,9 @@
                     and organizations generate value through adaptive solutions
                     for complex problems.
                   </p>
-                  <button class="btn-one bg-info">Press</button>
                 </div>
               </div>
+            </a>
             </div>
           </div>
         </div>
@@ -253,56 +280,70 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="container-fluid p-0" id="contact">
-        <div class="row text-left">
-          <div class="col-md-5 col-sm-5">
-            <h4 class="text-light">About us</h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-              maxime ea similique illum corrupti
-            </p>
-            <p class="pt-4 text-muted">
-              Copyright ©2019 All rights reserved | This template is made with
-              by
-              <span> Daily Tuition</span>
-            </p>
+
+    <!-- Footer Start-->
+    <div class="container-fluid px-0">
+      <footer class="pt-5">
+        <div class="row row-cols-4">
+          <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+            </ul>
           </div>
-          <div class="col-md-5 col-sm-12">
-            <h4 class="text-light">Newsletter</h4>
-            <p class="text-muted">Stay Updated</p>
-            <form class="form-inline">
-              <div class="col pl-0">
-                <div class="input-group pr-5">
-                  <input
-                    type="text"
-                    class="form-control bg-dark text-white"
-                    id="inlineFormInputGroupUsername2"
-                    placeholder="Email"
-                  />
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">
-                      <i class="fas fa-arrow-right"></i>
-                    </div>
-                  </div>
-                </div>
+    
+          <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-4 offset-2">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-danger" type="button">Subscribe</button>
               </div>
             </form>
           </div>
-          <div class="col-md-2 col-sm-12">
-            <h4 class="text-light">Follow Us</h4>
-            <p class="text-muted">Let us be social</p>
-            <div class="column text-light">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-youtube"></i>
-            </div>
-          </div>
         </div>
-      </div>
-    </footer>
+    
+        <div class="d-flex justify-content-between pt-4 mt-4 border-top ">
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="awes-2" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="ms-3"><a class="awes-2" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="ms-3"><a class="awes-2" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
 
+    <!-- Footer End-->
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -315,5 +356,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./main.js"></script>
+    
   </body>
 </html>
