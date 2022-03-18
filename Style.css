@@ -211,11 +211,6 @@ footer {
   color: var(--orange);
 }
 
-  /* .col-2 ul li a{
-  display: inline-block;
-  background-color: aqua;
-} */
-
 .nav-link{
   display: inline-block;
   color: rgb(247, 241, 241);
@@ -223,9 +218,6 @@ footer {
 .nav-link:hover{
   color: var(--orange);
 }
-
-
-
 .awes-2{
   font-size: 2em;
   color: var(--orange);
