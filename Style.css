@@ -112,49 +112,20 @@ header .container .col-md-7 p {
 }
 
 /* About us starts */
-
-.about-title {
-  height: auto;
-  width: auto;
-  color: black;
-  display: inline-block;
-}
-
-.about-us img {
-  height: 100%;
-  width: 100%;
-}
-.first-about-div {
-  background-color: rgba(221, 36, 45, 0.633);
-  padding-bottom: 30px;
-}
-.about-one {
-  border-radius: 7px;
-}
-.about-one img {
-  object-fit: inherit;
-}
-
-.about-four {
-  border-radius: 7px;
-}
-.about-title {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-.about-content {
-  text-align: justify;
-}
 .card-group {
   padding: 0;
   margin-top: 5rem;
 }
-
-<<<<<<< HEAD
+.about-us-card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
 .card-img-top {
   width: 25vw;
-  height:40vh ;
+  height: 40vh;
+  margin-bottom: 1rem;
+  padding: 4rem 7rem;
 }
+
 /* About ends */
 
 /********** section 1 **************/
@@ -199,15 +170,12 @@ header .container .col-md-7 p {
 
 /*  Projects  */
 
-#projects .card {
-=======
+/* #projects .card {
 /*  Projects Start  */
 #projects {
-background-color: var(--light-gray);
+  background-color: var(--light-gray);
 }
-
-.card {
->>>>>>> 89c266bb5f78312413ff013449d7694a5642c593
+*/ .card {
   height: 20rem;
   padding: 1rem;
   margin: 1rem 0;
@@ -217,17 +185,16 @@ background-color: var(--light-gray);
   background-image: url(assets/pexels-photo-1904769.jpeg);
 }
 
-.card:hover {
+/* .card:hover {
   transform: scale(1.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
     url(assets/pexels-photo-1904769.jpeg);
-}
+} */
 
-<<<<<<< HEAD
-.card-text:hover {
+/* .card-text:hover {
   background-color: rgba(1, 2, 1, 0.4);
   color: #ddd;
-}
+} */
 
 .btn-one {
   border: none;
@@ -240,9 +207,6 @@ background-color: var(--light-gray);
 .btn-one:hover {
   transform: scale(1.1);
 }
-=======
-/*  Projects End */
->>>>>>> 89c266bb5f78312413ff013449d7694a5642c593
 
 /* Section Team */
 
@@ -286,22 +250,20 @@ footer {
   color: var(--orange);
 }
 
-  /* .col-2 ul li a{
+/* .col-2 ul li a{
   display: inline-block;
   background-color: aqua;
 } */
 
-.nav-link{
+.nav-link {
   display: inline-block;
   color: rgb(247, 241, 241);
 }
-.nav-link:hover{
+.nav-link:hover {
   color: var(--orange);
 }
 
-
-
-.awes-2{
+.awes-2 {
   font-size: 2em;
   color: var(--orange);
 }
