@@ -241,3 +241,16 @@ footer .column i + i {
   z-index: 9999;
   transition: all 1.5s ease;
 }
+
+
+a{
+  text-decoration: none;
+  color: #dd2476;
+}
+
+.orange{
+  color: #ff512f;
+}
+li{
+  display: inline-block;
+}
