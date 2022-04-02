@@ -168,14 +168,13 @@ header .container .col-md-7 p {
   color: rgba(0, 0, 0, 0.5);
 } */
 
-/*  Projects  */
 
-/* #projects .card {
-/*  Projects Start  */
+/*  Projects Start */
+
 #projects {
   background-color: var(--light-gray);
 }
-*/ .card {
+.projectCard {
   height: 20rem;
   padding: 1rem;
   margin: 1rem 0;
@@ -185,28 +184,12 @@ header .container .col-md-7 p {
   background-image: url(assets/pexels-photo-1904769.jpeg);
 }
 
-/* .card:hover {
+.projectCard:hover {
   transform: scale(1.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
     url(assets/pexels-photo-1904769.jpeg);
-} */
-
-/* .card-text:hover {
-  background-color: rgba(1, 2, 1, 0.4);
-  color: #ddd;
-} */
-
-.btn-one {
-  border: none;
-  border-radius: 10%;
-  width: 4rem;
-  height: 3rem;
-  transition: all 0.2s ease-in-out;
 }
 
-.btn-one:hover {
-  transform: scale(1.1);
-}
 
 /* Section Team */
 
@@ -249,6 +232,12 @@ footer {
   padding: 0 18vmin;
   color: var(--orange);
 }
+
+/* .col-2 ul li a{
+  display: inline-block;
+  background-color: aqua;
+} */
+
 .nav-link {
   display: inline-block;
   color: rgb(247, 241, 241);
