@@ -13,10 +13,7 @@ header{
 .container-fluid{
   padding: 0;
 }
-html{
-  overflow-x: hidden;
-  width: 100vw;
-}
+body { overflow-x: hidden; width: 100vw;}
 
 
 :root {
@@ -73,15 +70,9 @@ header .navbar-brand {
 
 .nav-link {
   color: white;
-  display: inline-block;
 }
-
-.nav-link:hover {
-  color: var(--orange)
-}
-
-#logo:hover{
-color: var(--orange);
+header .nav-link:hover {
+  color: #0d6efd;
 }
 
 header .row .col-md-7 {
@@ -197,7 +188,16 @@ button:focus{outline: 0;}
 /* slider end */
 
 /* About us starts */
-.card-group {
+
+.about-us{
+  min-height: 100vh;
+  margin-top: 10em;
+
+}
+
+
+
+/* .card-group {
   padding: 0;
   margin-top: 5rem;
 }
@@ -209,7 +209,7 @@ button:focus{outline: 0;}
   height: 40vh;
   margin-bottom: 1rem;
   padding: 4rem 7rem;
-}
+} */
 
 /* About ends */
 
@@ -312,12 +312,22 @@ button:focus{outline: 0;}
 /* footer start */
 
 footer {
-  background: #000000;
+  background: rgba(0, 0, 0, 0.815);
   overflow-x: hidden;
   padding: 0 18vmin;
   color: var(--orange);
 }
-.footer-link{
+
+/* .col-2 ul li a{
+  display: inline-block;
+  background-color: aqua;
+} */
+
+.nav-link {
+  display: inline-block;
+  color: rgb(247, 241, 241);
+}
+.nav-link:hover {
   color: var(--orange);
 }
 
