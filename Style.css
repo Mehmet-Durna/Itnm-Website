@@ -73,9 +73,15 @@ header .navbar-brand {
 
 .nav-link {
   color: white;
+  display: inline-block;
 }
-header .nav-link:hover {
-  color: #0d6efd;
+
+.nav-link:hover {
+  color: var(--orange)
+}
+
+#logo:hover{
+color: var(--orange);
 }
 
 header .row .col-md-7 {
@@ -306,22 +312,12 @@ button:focus{outline: 0;}
 /* footer start */
 
 footer {
-  background: rgba(0, 0, 0, 0.815);
+  background: #000000;
   overflow-x: hidden;
   padding: 0 18vmin;
   color: var(--orange);
 }
-
-/* .col-2 ul li a{
-  display: inline-block;
-  background-color: aqua;
-} */
-
-.nav-link {
-  display: inline-block;
-  color: rgb(247, 241, 241);
-}
-.nav-link:hover {
+.footer-link{
   color: var(--orange);
 }
 
