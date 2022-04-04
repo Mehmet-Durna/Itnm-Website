@@ -90,10 +90,12 @@ if(auto){
      document.getElementById("navbar").style.margin = "0 10%";
      document.getElementById("navbar").style.borderRadius = "20px";
      document.getElementById("navbar").style.transition = "0.6s";
+
     
    } else {
     document.getElementById("navbar").style.width = "100%";
     document.getElementById("navbar").style.margin = "0";
     document.getElementById("navbar").style.borderRadius = "0";
+
    }
  }
