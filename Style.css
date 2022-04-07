@@ -228,12 +228,29 @@ button:focus{outline: 0;}
     url(assets/pexels-photo-1904769.jpeg);
 }
 
+/*Projects End */
 
+/* Parallax start */
+
+.parallax{
+
+  height: 70vh;
+  background-image: url(assets/parallax.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+/* Parallax end */
 
 /* How do we help start */
 #how-do{
 
   min-height: 100vh;
+  
 }
 /* How do we help end */
 
