@@ -121,11 +121,14 @@ header .container .col-md-7 p {
 
 
 .navbar {
- 
- 
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
+}
+
+.navbar:hover{
+  background-color: black;
 }
 /* slider start */
 
