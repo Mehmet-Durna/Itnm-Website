@@ -116,7 +116,7 @@ header .container .col-md-7 p {
 
 .navbar {
  
-  position: fixed;
+ 
   top: 0;
   width: 100%;
   z-index: 100;
@@ -222,7 +222,10 @@ button:focus{outline: 0;}
 
 
 /* How do we help start */
+#how-do{
 
+  min-height: 100vh;
+}
 /* How do we help end */
 
 
