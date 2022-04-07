@@ -69,10 +69,16 @@ header .navbar-brand {
 }
 
 .nav-link {
-  color: white;
+  display: inline-block;
+  color: rgb(247, 241, 241);
 }
-header .nav-link:hover {
-  color: #0d6efd;
+.nav-link:hover {
+  color: var(--orange);
+}
+
+
+#logo:hover{
+  color: var(--orange);
 }
 
 header .row .col-md-7 {
@@ -191,7 +197,7 @@ button:focus{outline: 0;}
 
 .about-us{
   min-height: 100vh;
-  margin-top: 10em;
+  
 
 }
 /* About ends */
@@ -233,27 +239,28 @@ button:focus{outline: 0;}
 /* footer start */
 
 footer {
-  background: rgba(0, 0, 0, 0.815);
+  background: rgba(0, 0, 0, 0.89);
   overflow-x: hidden;
   padding: 0 18vmin;
   color: var(--orange);
 }
 
-/* .col-2 ul li a{
-  display: inline-block;
-  background-color: aqua;
-} */
 
-.nav-link {
-  display: inline-block;
-  color: rgb(247, 241, 241);
-}
-.nav-link:hover {
-  color: var(--orange);
+.footer-link{
+color: var(--orange);
 }
 
-.awes-2 {
-  font-size: 2em;
-  color: var(--orange);
-}
+.footer-link:hover{
+  color: var(--light-gray);
+  }
+
+  .awes-2 {
+    font-size: 2em;
+    color: var(--orange);
+    transition: 0.3s;
+  }
+  .awes-2:hover {
+    font-size: 2.5em;
+    color: var(--light-gray);
+  }
 
