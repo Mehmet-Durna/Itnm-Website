@@ -14,6 +14,7 @@ header{
   padding: 0;
 }
 
+ 
 
 
 :root {
@@ -141,7 +142,10 @@ header .container .col-md-7 p {
   padding: 0;
   overflow-x: hidden;
   z-index: -100;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(7, 17, 71, 0.5)), url('assets/l1.jpg') no-repeat center/cover;
 }
+
+
 .slide{
   position: absolute;
   top: 0;
@@ -156,9 +160,6 @@ header .container .col-md-7 p {
   opacity: 1;
 }
 
-.slide:nth-child(1){ background: url('assets/l1.jpg') no-repeat center/cover }
-.slide:nth-child(2){ background: url('assets/l2.jpg') no-repeat center/cover }
-.slide:nth-child(3){ background: url('assets/l1.jpg') no-repeat center/cover }
 
   
 .slide .inner{
@@ -166,7 +167,6 @@ header .container .col-md-7 p {
   position: absolute;
   bottom: 50%;
   left: 10%;
-  background-color: rgba(0, 0, 0, .8);
   color: #eee;
   opacity: 0;
 }
