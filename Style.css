@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 
 * {
-  font-family: var(--Sniglet-font);
+  font-family: 'Work Sans', sans-serif;
 }
 
 h1 {
@@ -20,7 +21,7 @@ header {
 
 
 :root {
-  --Sniglet-font: "Sniglet", cursive;
+  --Sniglet-font: 'Work Sans', sans-serif;
   --Rubik: "Rubik", cursive;
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
@@ -309,6 +310,59 @@ button:focus {
 
   min-height: 100vh;
 
+}
+
+.card{
+
+  border-radius: 0;
+  font-size: larger;
+  border: none;
+}
+
+.card-header{
+
+  padding: auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card-title{
+  font-size: xx-large;
+  margin: 0%;
+  display: inline-block;
+
+}
+
+.card-footer{
+
+  background-color: #fff;
+  margin: 1rem 0;
+}
+
+.card-button{
+
+  color: #fff;
+  background-color: #d2036e;
+  border: none;
+  border-radius: 80px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding: 0.7rem;
+  transition: 0.5s;
+}
+
+.card-button:hover{
+  background-color: #e81582;
+  letter-spacing: 2px;
+}
+
+.highlight{
+
+  box-shadow: 14px 14px 70px -10px rgb(0 0 0 / 30%);
+  z-index: 10;
 }
 
 /* How do we help end */
